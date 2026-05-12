@@ -24,19 +24,26 @@ export default function App()
 
   </div>
   
-  
-  
-  
-
-    <div className="card">
+   <div className="card">
       <h3>Chamada para o componente Exercicio2</h3>
 
       <Exercicio2 peso={80} altura={1.80} />
       <br />
-      <Exercicio2 peso={60} altura={1.60} / >
-      <br /
+      <Exercicio2 peso={60} altura={1.60} />
+      <br />
       
   </div>
+
+<div className="card">
+    <h3>Chamada para o componente exercicio 3</h3>
+
+    <Exercicio3 nota1= {5} nota2 = {7} />
+
+</div>
+
+  
+  </div>
+  
   )
 }
 
