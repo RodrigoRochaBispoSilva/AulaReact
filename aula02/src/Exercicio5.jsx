@@ -1,0 +1,1 @@
+export default function Exercicio5({nota1, nota2})

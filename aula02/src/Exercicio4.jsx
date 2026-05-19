@@ -1,0 +1,1 @@
+export default function Exercicio4({base, altura})
