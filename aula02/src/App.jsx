@@ -3,6 +3,9 @@ import Exemplo1 from "./Exemplo1";
 
 import Exercicio1 from "./Exercicio1";
 import Exercicio2 from "./Exercicio2";
+import Exercicio3 from "./Exercicio3";
+import Exercicio4 from "./Exercicio4";
+import Exercicio5 from "./Exercicio5";
 
 export default function App()
 {
@@ -11,7 +14,7 @@ export default function App()
   <h1 style={{color: "red",background: "black"}}>Aula 02 - Criacao de Componentes </h1>
   
   <div className="card">
-    <h3>Chamadas para o componente Exemplo1</h3>
+    <h3> Exemplo1</h3>
 
     <Exemplo1 numero1={10} numero2={20} />
 </div>
@@ -25,24 +28,43 @@ export default function App()
   </div>
   
    <div className="card">
-      <h3>Chamada para o componente Exercicio2</h3>
+      <h3> Exercicio2</h3>
 
-      <Exercicio2 peso={80} altura={1.80} />
-      <br />
-      <Exercicio2 peso={60} altura={1.60} />
-      <br />
+     <Exercicio2 peso= {60} altura= {80} />
       
   </div>
 
 <div className="card">
-    <h3>Chamada para o componente exercicio 3</h3>
+    <h3>Exercicio 3</h3>
 
     <Exercicio3 nota1= {5} nota2 = {7} />
 
 </div>
 
-  
+<div className="card">
+
+<h3>Exercicio 4</h3>
+<Exercicio4 baset= {7} alturat= {9}/>
+
+</div>
+
+<div className="card">
+ 
+<h3>Exercicio 5</h3>
+<Exercicio5 consulta={10}/>
+ 
+ 
+ </div>
+
+  <div className="card">
+
+    <h3>Exercicio 6</h3>
+    <Exercicio6 capital={1000} tempo={6} taxa={5}/>
+
   </div>
+  </div>
+
+  
   
   )
 }
