@@ -6,12 +6,11 @@ let montanteC = Number (capital)* Math.pow(1+(Number(taxa) / 100), Number(tempo)
  
  
 return
- 
 {
 <div>
-Capital: {capital}, Taxa: {taxa}, Tempo: {tempo}
-Montante Simples = {montanteS}
-Montante Composta = {montanteC}
+Capital: R$ (Number{capital}.tofixed(2)), Taxa: {taxa}5, Tempo: {tempo} meses.
+Montante = (Juros Simples) = R$ {montantsimples.tofixed(2)}.
+Montante = {Juros }
 </div>
  
 }
