@@ -16,7 +16,7 @@ export default function App()
 
     <Route path="/estados/sp" element={<SaoPaulo />} />
      <Route path="/estados/mg" element={<MinasGerais />} />
-      <Route path="/estados/rj" element={<Riojaneiro />} />
+      <Route path="/estados/rj" element={<RioJaneiro />} />
        <Route path="/estados/es" element={<EspiritoSanto />} />
 
     </Routes>
