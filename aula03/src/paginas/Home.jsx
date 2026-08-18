@@ -23,7 +23,7 @@ export default function Home()
             </div>
 
             <div className="conteudo">
-        <h3>Regiao Sul</h3>
+        <h3>Regiao Sul:</h3>
 
         <ul>
             <li><Link to="/estados/pr">Parana</Link></li>
@@ -34,7 +34,7 @@ export default function Home()
             </div>
 
             <div className="conteudo">
-        <h3>Regiao Centro-Oeste</h3>
+        <h3>Regiao Centro-Oeste:</h3>
 
         <ul>
         <li><Link to="/estados/go">Goias</Link></li>
@@ -46,15 +46,34 @@ export default function Home()
             </div>
 
             <div className="conteudo">
-                <h3>Regiao Norte</h3>
+                <h3>Regiao Norte:</h3>
                 <ul>
                 <li><Link to="/estados/ac">Acre</Link></li>
                 <li><Link to="/estados/ap">Amapa</Link></li>
                 <li><Link to="/estados/am">Amazonas</Link></li>
-                
-                
+                <li><Link to="/estados/pa">Para</Link></li>
+                <li><Link to="/estados/ro">Rondonia</Link></li>
+                <li><Link to="/estados/rr">Roraima</Link></li>
+                <li><Link to="/estados/to">Tocantins</Link></li>
                 </ul>
             </div>
+            <div className="conteudo">
+                <h3>Regiao Nordeste:</h3>
+                <ul>
+                <li><Link to="/estados/al">Alagoas</Link></li>
+                <li><Link to="/estados/ba">Bahia</Link></li>
+                <li><Link to="/estados/ce">Ceara</Link></li>
+                <li><Link to="/estados/ma">Maranhao</Link></li>
+                <li><Link to="/estados/pb">Paraiba</Link></li>
+                <li><Link to="/estados/pe">Pernambuco</Link></li>
+                <li><Link to="/estados/pi">Piaui</Link></li>
+                <li><Link to="/estados/rn">RioGrandedoNorte</Link></li>
+                <li><Link to="/estados/se">Sergipe</Link></li>
+                </ul>
+                </div>
+
+
+
         </div>
     );
 }

@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
-export default function Acre()
+export default function Tocantins()
 {
     return (
         <div>
-            <h1>Estado do Acre </h1>
+            <h1>Estado do Tocantins </h1>
 
             <div className="conteudo">
-        <img src="/AC.png" />
+        <img src="/TO.png" />
         <p>
-        O Acre é um estado localizado na Região Norte do Brasil, tendo Rio Branco como sua capital. É conhecido por suas grandes áreas de floresta amazônica e pela riqueza de sua biodiversidade. Sua economia é baseada principalmente na agricultura, pecuária, extrativismo e comércio. O estado também possui uma cultura marcada pela influência dos povos indígenas e pela história dos seringueiros, que tiveram grande importância na formação do Acre.
+        Tocantins é um estado localizado na Região Norte do Brasil, tendo Palmas como sua capital. É o estado mais novo do país, criado em 1988. Sua paisagem é formada por áreas de Cerrado, rios e belas cachoeiras. A economia destaca-se pela agricultura, pecuária, comércio e serviços. Tocantins também possui uma cultura diversificada e importantes atrações naturais, como o Jalapão.
         </p>
         <p>
              <Link to="/">Voltar</Link>

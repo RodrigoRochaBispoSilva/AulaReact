@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
-export default function Acre()
+export default function Roraima()
 {
     return (
         <div>
-            <h1>Estado do Acre </h1>
+            <h1>Estado do Roraima </h1>
 
             <div className="conteudo">
-        <img src="/AC.png" />
+        <img src="/RR.png" />
         <p>
-        O Amazonas é um estado localizado na Região Norte do Brasil, tendo Manaus como sua capital. É o maior estado brasileiro em extensão territorial e possui grande parte de seu território coberto pela Floresta Amazônica. O estado é conhecido por seus rios, sua rica biodiversidade e suas belas paisagens naturais. Sua economia se destaca pelo comércio, pela indústria, pelo turismo e pelo extrativismo. O Amazonas também possui uma cultura diversificada, com forte influência dos povos indígenas e das tradições amazônicas.
+        Roraima é um estado localizado na Região Norte do Brasil, tendo Boa Vista como sua capital. É o estado brasileiro mais ao norte e faz fronteira com a Venezuela e a Guiana. Roraima possui belas paisagens naturais, com áreas de floresta, savanas e montanhas. Sua economia é baseada principalmente na agricultura, pecuária, comércio e serviços. O estado também possui uma forte presença indígena e uma cultura rica e diversificada, sendo uma importante parte da região amazônica.
         </p>
         <p>
              <Link to="/">Voltar</Link>
