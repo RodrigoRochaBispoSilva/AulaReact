@@ -67,7 +67,7 @@ export default function Home()
                 <li><Link to="/estados/pb">Paraiba</Link></li>
                 <li><Link to="/estados/pe">Pernambuco</Link></li>
                 <li><Link to="/estados/pi">Piaui</Link></li>
-                <li><Link to="/estados/rn">RioGrandedoNorte</Link></li>
+                <li><Link to="/estados/rn">Rio Grande do Norte</Link></li>
                 <li><Link to="/estados/se">Sergipe</Link></li>
                 </ul>
                 </div>
