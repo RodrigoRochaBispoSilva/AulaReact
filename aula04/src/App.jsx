@@ -19,6 +19,7 @@ export default function App()
                 
                 <Route  path="/exercicio1" element={ <Exercicio1 />} />
                 <Route  path="/exercicio2" element={ <Exercicio2 />} />
+                <Route  path="/exercicio3" element={ <Exercicio3 />} />
 
             </Routes>
 
