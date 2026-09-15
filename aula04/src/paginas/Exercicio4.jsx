@@ -1,24 +1,22 @@
 import {Link} from "react-router-dom";
 import {useState} from "react";
 
-export default function Exercicio3()
+export default function Exercicio4()
 {
-    const[valor, setValor] = useState();
-    const[taxa, setTaxa] = useState();
-    const[tempo, setTempo] = useState();
+    const[base, setBase] = useState();
+    const[altura, setAltura] = useState();
     const[resultado, setResultado] = useState();
 
     function calcular()
     {
-        let valorParcela;
+        let area;
 
-        valorParcela = Number(valor) + 
-        (Number(valor) * (Number(taxa) * Number(taxa) / 100) * Number(tempo));
+        area = (Number(base) * Number(altura)) / 2;
 
         // exibindo o resultado na variavel resultado
         setResultado(
             <div>
-                Valor da parcela atualizado = {valorParcela}
+                Área do triângulo = {area}
             </div>
         );
     }
@@ -26,36 +24,27 @@ export default function Exercicio3()
     return (
         <div>
 
-            <h1>Exercício 3</h1>
+            <h1>Exercício 4</h1>
 
             <div className="conteudo">
 
                 <form>
 
                     <p>
-                        Digite o valor da prestação <br />
+                        Digite o valor da base do triângulo <br />
                         <input
                             type="text"
-                            value={valor}
-                            onChange={(e) => setValor(e.target.value)}
+                            value={base}
+                            onChange={(e) => setBase(e.target.value)}
                         />
                     </p>
 
                     <p>
-                        Digite a taxa de juros (%) <br />
+                        Digite o valor da altura do triângulo <br />
                         <input
                             type="text"
-                            value={taxa}
-                            onChange={(e) => setTaxa(e.target.value)}
-                        />
-                    </p>
-
-                    <p>
-                        Digite o tempo de dias de atraso <br />
-                        <input
-                            type="text"
-                            value={tempo}
-                            onChange={(e) => setTempo(e.target.value)}
+                            value={altura}
+                            onChange={(e) => setAltura(e.target.value)}
                         />
                     </p>
 
